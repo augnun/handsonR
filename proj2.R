@@ -19,6 +19,7 @@ googol
 card <- list("ace", "hearts", 1)
 deck <- read.csv("~/handsonR/deck.csv", stringsAsFactors=FALSE)
 write.csv(deck, file="cards.csv", row.names=FALSE)
+<<<<<<< HEAD
 
 
 # exercício p 70
@@ -64,3 +65,5 @@ x < 10 & x > 20
 y == "February"
 all(x %in% c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
              "Saturday", "Sunday"))
+=======
+>>>>>>> 2b9604da02036dab15cf15d600c1ff35276955ea
